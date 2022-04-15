@@ -1,0 +1,5 @@
+black: 1B2021
+black light: 30343F
+green light: 31CB00
+green: 119822
+green medium: 2A7221

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="../css/style.css">
+
+    <title>Yu-Gi-Oh Card Maker</title>
+</head>
+<body>
+    
+    <div class="principal"> 
+        <!-- Tudo de mundança nas cartas -->
+        <div class="lado-esquerdo"> 
+            <div class="nome"> 
+                <input type="text" placeholder="Nome">
+            </div> 
+            
+            <div class="card-type">
+                card type
+                <select>
+                    <option value="magia">magia</option>
+                    <option value="armadilha">armadilha</option>
+                    <option value="normal">normal</option>
+                    <option value="efeito">efeito</option>
+                    <option value="fusão">fusão</option>
+                    <option value="ritual">ritual</option>
+                    <option value="synchro">synchro</option>
+                    <option value="xyz">xyz</option>
+                    <option value="pendulo">pendulo</option>
+                    <option value="link">link</option>
+                </select>
+            </div>
+            
+            <div class="attributes">
+                <div>
+                    <img src="../assets/icons/dark.webp">
+                    <img src="../assets/icons/divino.png">
+                    <img src="../assets/icons/Fogo.png">
+                    <img src="../assets/icons/luz.png">
+                    <img src="../assets/icons/terra.png">
+                    <img src="../assets/icons/vento.png">
+                    <img src="../assets/icons/agua.png">
+                </div>
+                <div>
+                    <input type="radio">
+                    <input type="radio">
+                    <input type="radio">
+                    <input type="radio">
+                    <input type="radio">
+                    <input type="radio">
+                    <input type="radio">
+                </div>
+            </div>
+            <div class="card-level">
+                level
+                <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                   
+                </select>
+            </div>
+
+            <div class="image">
+                <input type="file" accept="image/*">
+            </div>
+
+            <div>
+                types
+                <div>
+                    <input type="text"> <span>+</span>
+                </div>
+            </div>
+
+            <div>
+                <textarea placeholder="Descrição"></textarea>
+            </div>
+
+            <div>
+                ATK/<input type="number" min="0">
+            </div>
+        </div>
+
+        <div class="centro"> 
+            <img src="../assets/samples/normal-sample.jpg">
+        </div>
+
+        <div class="lado-direito"> 
+            
+        </div>        
+    </div>
+
+
+</body>
+</html>
