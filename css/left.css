@@ -1,0 +1,65 @@
+.left {
+    padding: 1%;
+    height: 100vh;
+    width: 25%;
+    background-color: #30343F;
+    overflow: auto;
+}
+.left > div {
+    margin-bottom: 25px;
+}
+.left p {
+    margin-bottom: 5px;
+}
+.attributes div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.attributes div img{
+    height: 4vh;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.types div {
+    display: flex;
+}
+.types div span {
+    border: 2px solid #31CB00;
+    padding: 10px 0;
+    margin-left: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 25px;
+    width: 20%;
+    transition: .5s;
+}
+.types div span:hover {
+    background-color: #31CB00;
+    border-color: white;
+}
+/* Escolher Imagem */
+.image input {
+    display: none;
+}
+
+.image >label{
+    color: white;
+    border: 2px solid green;
+    width: 100%;
+
+    padding: 10px 57% 10px 10px;
+    
+}
+button {
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 15px; 
+    background-color: #31CB00;
+    outline: 0;
+    border: none;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 16px;
+}

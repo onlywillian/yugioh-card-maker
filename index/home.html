@@ -13,24 +13,25 @@
     
     <div class="principal"> 
         <!-- Tudo de mundança nas cartas -->
-        <div class="lado-esquerdo"> 
+        <div class="left"> 
             <div class="nome"> 
-                <input type="text" placeholder="Nome">
+                <p> Nome:</p>
+                <input type="text" class="name-area" placeholder="Nome">
             </div> 
             
             <div class="card-type">
-                card type
+                <p>Card Type</p>
                 <select>
-                    <option value="magia">magia</option>
-                    <option value="armadilha">armadilha</option>
-                    <option value="normal">normal</option>
-                    <option value="efeito">efeito</option>
-                    <option value="fusão">fusão</option>
-                    <option value="ritual">ritual</option>
-                    <option value="synchro">synchro</option>
-                    <option value="xyz">xyz</option>
-                    <option value="pendulo">pendulo</option>
-                    <option value="link">link</option>
+                    <option value="magia">Magia</option>
+                    <option value="armadilha">Armadilha</option>
+                    <option value="normal">Normal</option>
+                    <option value="efeito">Efeito</option>
+                    <option value="fusão">Fusão</option>
+                    <option value="ritual">Ritual</option>
+                    <option value="synchro">Synchro</option>
+                    <option value="xyz">XYZ</option>
+                    <option value="pendulo">Pendulo</option>
+                    <option value="link">Link</option>
                 </select>
             </div>
             
@@ -44,18 +45,9 @@
                     <img src="../assets/icons/vento.png">
                     <img src="../assets/icons/agua.png">
                 </div>
-                <div>
-                    <input type="radio">
-                    <input type="radio">
-                    <input type="radio">
-                    <input type="radio">
-                    <input type="radio">
-                    <input type="radio">
-                    <input type="radio">
-                </div>
             </div>
             <div class="card-level">
-                level
+                <p>Level</p>
                 <select>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -74,13 +66,17 @@
             </div>
 
             <div class="image">
-                <input type="file" accept="image/*">
+                <label for="image-camp">Escolher Imagem</label>
+                <input type="file" id="image-camp" accept="image/*">
             </div>
 
-            <div>
-                types
-                <div>
-                    <input type="text"> <span>+</span>
+            <div class="types">
+                <p>Types:</p> 
+                <div class="center">
+                    <input type="text"> /
+                    <input type="text"> /
+                    <input type="text"> /
+                    <input type="text">
                 </div>
             </div>
 
@@ -88,20 +84,34 @@
                 <textarea placeholder="Descrição"></textarea>
             </div>
 
+            <div class="atk-def">
+                <p>ATK</p><input class="atk" type="number" min="0">
+                <p>DEF</p><input type="number" min="0">
+            </div>
+
             <div>
-                ATK/<input type="number" min="0">
+                <button>Export</button>
             </div>
         </div>
 
-        <div class="centro"> 
+        <div class="main"> 
+            <div class="card-name"> 
+                
+            </div>
+
+            <div class="card-atk">
+
+            </div>
+
+
             <img src="../assets/samples/normal-sample.jpg">
         </div>
 
-        <div class="lado-direito"> 
+        <div class="right"> 
             
         </div>        
     </div>
 
-
+    <script src="../script/script.js"></script>
 </body>
 </html>
